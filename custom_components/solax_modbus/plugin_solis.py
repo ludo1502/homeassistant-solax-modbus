@@ -172,15 +172,15 @@ BUTTON_TYPES = [
         icon = "mdi:battery-clock",
         value_function = value_function_timingmode2,
     ),
-    SolisModbusButtonEntityDescription(
-        name = "Update Charge/Discharge Times 3",
-        key = "update_charge_discharge_times_3",
-        register = 43163,
-        allowedtypes = HYBRID,
-        write_method = WRITE_MULTI_MODBUS,
-        icon = "mdi:battery-clock",
-        value_function = value_function_timingmode3,
-    ),
+    #SolisModbusButtonEntityDescription(
+    #    name = "Update Charge/Discharge Times 3",
+    #    key = "update_charge_discharge_times_3",
+    #    register = 43163,
+    #    allowedtypes = HYBRID,
+    #    write_method = WRITE_MULTI_MODBUS,
+    #    icon = "mdi:battery-clock",
+    #    value_function = value_function_timingmode3,
+    #),
 ]
 
 # ================================= Number Declarations ============================================================
